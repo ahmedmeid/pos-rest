@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Products</title>
+</head>
+<body>
+
+<div>
+   <label>Barcode:</label>
+	<input type="text" id="searchKey"/>
+	<br>
+	<button id="btnSearch">Search</button>
+</div>
+
+<div>
+<label>Product Id:</label>
+<input id="productId" name="id" type="text" disabled />
+<br>
+<label>Description:</label>
+<input type="text" id="description" name="description" required>
+<br>
+<label>Price:</label>
+<input type="text" id="price" name="price"/>
+<label>Serial Number:</label>
+<input type="text" id="serialnum" name="serialnum"/>
+</div>
+
+<table id="my-ajax-table">
+   <thead>
+   <tr>
+    <th>Some Attribute</th>
+    <th>Some Other Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.dynatable.js"></script>
+<script src="js/test.js"></script>
+
+</body>
+</html>
